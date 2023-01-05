@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SPECTRE</title>
+    <link rel="icon" href="media/Rolls-Royce_Motor_Cars_logo.png">
+    <link rel="stylesheet" href="Style/style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/bac8c79424.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sidebar">
+        <div id="close" onclick="closeMenu()">
+            <a href="#"><i class="fa-solid fa-xmark"></i></a>
+        </div>
+        <div id="items-list">
+            <div id="items"><a href="index.html">HOME</a></div>
+            <div id="items" onmouseover="openSubList()" onmouseout="hideSubList()">
+                <div id="view"><a href="#">MODELS</a> <i class="fa-solid fa-angle-down"></i></div>
+                <div id="sub-list">
+                    <div class="list"><a href="Phantom.html">PHANTOM</a></div>
+                    <div class="list"><a href="Ghost.html">GHOST</a></div>
+                    <div class="list"><a href="Spectre.html">SPECTRE</a></div>
+                </div>
+            </div>
+            <div id="items"><a href="#">ABOUT</a></div>
+            <div id="items"><a href="#">MAKE AN ENQUIRY</a></div>
+            <div id="items"><a href="#">CONTACT US</a></div>
+        </div>
+    </div>
+
+    <div class="header">
+        <div onclick="openMenu()" id="menu"><a href="#"><i class="fa-solid fa-bars menu"></i>MENU</a></div>
+        <div class="logo"><a href="index.html"><img src="media/Rolls-Royce_Motor_Cars_logo white.png" id="logo"></a></div>
+        <div class="dealer"><a href="#"><i class="fa-solid fa-magnifying-glass search"></i>FIND A DEALER</a></div>
+    </div>
+
+    <div class="car">
+        <img src="media/Spectre/Spectre.jpg">
+        <a href="Spectre.html">SPECTRE</a>
+    </div>
+
+    <div class="quote">
+        <h2>Captivating clarity of design. <br>
+            Serenity with presence.</h2>
+    </div>
+
+    <div class="container">
+        <div class="previous">
+            <button onclick="prev(this)"><i class="fa-solid fa-chevron-left"></i></button>
+        </div>
+
+        <div class="image-slider">
+            <div id="slider">
+                <div class="item">
+                    <img src="media/Spectre/Design.jpg">
+                    <div>
+                        <h2>FORMIDABLE WHEELS</h2>
+                        <p>
+                            Spectre's Architecture of Luxury — a bespoke aluminium space-frame underpinning the model —
+                            now fits 23” wheels for the first time. The effect is impressive from an aesthetic and
+                            performance perspective. For drivers who find themselves upon icy, snow-covered surfaces,
+                            coupling the wheels with winter tyres is relished.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="media/Spectre/Design2.jpg">
+                    <div>
+                        <h2>EFFORTLESS DOORS</h2>
+                        <p>
+                            Spectre's doors are the largest of any Rolls-Royce, measuring 1.5 metres in length. Their
+                            generous size makes the act of entering and exiting the motor car a graceful act. Open and
+                            close them with the touch of a button. Think of their effortless technology as a built-in
+                            chauffeur, always on hand and at your perennial service.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="media/Spectre/Design3.jpg">
+                    <div>
+                        <h2>SPIRITED COLOUR</h2>
+                        <p>
+                            Spectre presents a never-before-seen exterior colour option, Chartreuse — a vivid shade
+                            replicating the green tones of the French liqueur originally made by monks in the
+                            mountainous region of Grenoble, France. Like the liqueur, the hue boasts a mesmerising
+                            richness and depth, inviting the viewer's eye to linger.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="next">
+            <button onclick="next(this)"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <!------------------------------------------------->
+
+    <div class="quote">
+        <h2>Technology and craftsmanship combine,<br>
+            creating something remarkable.</h2>
+    </div>
+
+    <div class="container">
+        <div class="previous">
+            <button onclick="prev(this)"><i class="fa-solid fa-chevron-left"></i></button>
+        </div>
+
+        <div class="image-slider">
+            <div id="slider">
+                <div class="item">
+                    <img src="media/Spectre/img1.jpg">
+                    <div>
+                        <h2>BESPOKE INSTRUMENT DIALS</h2>
+                        <p>
+                            Seen for the first time on any Rolls-Royce, fully digital Bespoke Instrument Dials are a
+                            stunning display of technological craftsmanship, indicative of Spectre's digital identity
+                            and the marques unparalleled design proficiency. Spectre owners may select a personalised
+                            and complementary dial colour upon commission.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="media/Spectre/img2.jpg">
+                    <div>
+                        <h2>CONNECTED WITH WHISPERS</h2>
+                        <p>
+                            The Rolls-Royce experience extends beyond the physical drive. With Whispers, our owners-only
+                            app, drivers are always in tune with Spectre — the most connected Rolls-Royce yet. Once
+                            connected, drivers can send curated Whispers locations, such as restaurant recommendations,
+                            directly to the motor car for effortless navigation.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="media/Spectre/img3.jpg">
+                    <div>
+                        <h2>YOUR INTELLIGENT COMPANION</h2>
+                        <p>
+                            When driving Spectre, a range of needs may arise. Perhaps you may want the temperature
+                            adjusted, or require the whereabouts of your nearest charging station. Rather than acting
+                            upon these yourself, Eleanor, your intelligent companion, grants your requests.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="next">
+            <button onclick="next(this)"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <!----------------------------------------------------->
+
+    <div class="quote">
+        <h2>Bask in the radiance of a thousand stars. <br>
+            And be left spellbound.</h2>
+    </div>
+
+    <div class="container">
+        <div class="previous">
+            <button onclick="prev(this)"><i class="fa-solid fa-chevron-left"></i></button>
+        </div>
+
+        <div class="image-slider">
+            <div id="slider">
+                <div class="item">
+                    <img src="media/Spectre/Seat1.jpg">
+                    <div>
+                        <h2>A CANOPY OF STARS</h2>
+                        <p>
+                            Rolls-Royce's Starlight Headliner has been a statement feature since its 2007 debut,
+                            transfixing passengers with the atmospheric glow and hues of delicately placed fibre-optic
+                            lights. Ablaze with an intricate show of shooting stars, this stellar sky continues to shine
+                            for Spectre, remaining an iconic and timeless Rolls-Royce feature.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="media/Spectre/Seat2.jpg">
+                    <div>
+                        <h2>PRISTINE LEATHER</h2>
+                        <p>
+                            Spectre's distinct and supple leather is a result of intensive work done by Rolls-Royce's
+                            own artisans and leather experts. Tumbling the hides in pigment gives them an intense colour
+                            payoff that permeates every level of the material, as opposed to just the top layer. This
+                            technique also ensures that over time, the leather ages beautifully and evenly.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="media/Spectre/Seat3.jpg">
+                    <div>
+                        <h2>EXQUISITE WOODWORK</h2>
+                        <p>
+                            A Rolls-Royce craftsperson spends large stretches of time perfecting the smallest of
+                            details, informed by years of ardent training. Woodwork is no exception, with decorative
+                            pieces requiring an unwavering level of precision and skill. Interior open-pore veneer is
+                            testament to this. This particular option, Sindora, originates from Indonesia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="next">
+            <button onclick="next(this)"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="footer">
+        <img src="media/Namelogo.png">
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Phantom</title>
+    <link rel="icon" href="media/Rolls-Royce_Motor_Cars_logo.png">
+    <link rel="stylesheet" href="Style/style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/bac8c79424.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="sidebar">
+        <div id="close" onclick="closeMenu()">
+            <a href="#"><i class="fa-solid fa-xmark"></i></a>
+        </div>
+        <div id="items-list">
+            <div id="items"><a href="index.html">HOME</a></div>
+            <div id="items" onmouseover="openSubList()" onmouseout="hideSubList()">
+                <div id="view"><a href="#">MODELS</a> <i class="fa-solid fa-angle-down"></i></div>
+                <div id="sub-list">
+                    <div class="list"><a href="Phantom.html">PHANTOM</a></div>
+                    <div class="list"><a href="Ghost.html">GHOST</a></div>
+                    <div class="list"><a href="Spectre.html">SPECTRE</a></div>
+                </div>
+            </div>
+            <div id="items"><a href="#">ABOUT</a></div>
+            <div id="items"><a href="#">MAKE AN ENQUIRY</a></div>
+            <div id="items"><a href="#">CONTACT US</a></div>
+        </div>
+    </div>
+
+    <div class="header">
+        <div onclick="openMenu()" id="menu"><a href="#"><i class="fa-solid fa-bars menu"></i>MENU</a></div>
+        <div class="logo"><a href="index.html"><img src="media/Rolls-Royce_Motor_Cars_logo white.png" id="logo"></a></div>
+        <div class="dealer"><a href="#"><i class="fa-solid fa-magnifying-glass search"></i>FIND A DEALER</a></div>
+    </div>
+
+    <div class="car">
+        <img src="media/Phantom/Phantom.jpg">
+        <a href="Phantom.html">PHANTOM</a>
+    </div>
+
+    <div class="quote">
+        <h2>EXPRESSIONS OF AN ICON</h2>
+        <p> Phantom Series II makes its arrival known through bold and original statements. Sublime features are
+            underpinned by meticulous craft and engineering, resulting in an authoritative presence that demands both
+            awe and attention.
+        </p>
+    </div>
+
+    <div class="container">
+        <div class="previous">
+            <button onclick="prev(this)"><i class="fa-solid fa-chevron-left"></i></button>
+        </div>
+
+        <div class="image-slider">
+            <div id="slider">
+                <div class="item">
+                    <img src="media/Phantom/Icon1.jpg">
+                    <div>
+                        <h2>THE ILLUMINATED GRILLE</h2>
+                        <p>
+                            Amplified by a Dark Chrome Surround, the legendary Rolls-Royce Pantheon Grille now radiates
+                            a stunning glow. Above, a polished bar perfectly aligns with new Daytime Running Lights,
+                            creating a prominent and powerful horizon line.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="media/Phantom/Icon2.jpg">
+                    <div>
+                        <h2>AN EVERLASTING MUSE</h2>
+                        <p>
+                            The famed Spirit of Ecstasy proudly adorns the bonnet of Phantom Series II, denoting it a
+                            rightful icon. She lights the way with graceful power in a stance of eternal flight.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="media/Phantom/Icon3.jpg">
+                    <div>
+                        <h2>STRIKING WHEEL DIMENSIONS</h2>
+                        <p>
+                            Manufactured by 3D milling, the Dynamic Wheel's faceted surface creates an abstract sense of
+                            depth. When in motion, the esteemed Rolls-Royce monograms remain centred, poised, and set in
+                            place.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="next">
+            <button onclick="next(this)"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <!------------------------------------------------->
+
+    <div class="quote">
+        <h2>Inimitable in style, the embodiment of confidence, <br>
+            Phantom Series II boldly defines new <br>
+            standards of excellence.
+        </h2>
+    </div>
+
+    <div class="container">
+        <div class="previous">
+            <button onclick="prev(this)"><i class="fa-solid fa-chevron-left"></i></button>
+        </div>
+        <div class="image-slider">
+            <div id="slider">
+                <div class="item">
+                    <img src="media/Phantom/Phantom-img1.jpg">
+                    <div>
+                        <h2>SPIRITED COLOUR</h2>
+                        <p>
+                            A hand-painted Peony Pink Coachline is flawlessly set against the distinctive Monteverde
+                            exterior — a colour inspired by the green and blue hues of nature's undiscovered
+                            territories, enlivened by gleaming golden pearl.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="media/Phantom/Phantom-img2.jpg">
+                    <div>
+                        <h2>TWO-TONE COLOUR</h2>
+                        <p>
+                            In impressive Two-Tone Paint, Phantom Series II stands out against the crowd. Complementing
+                            colour schemes accentuate its muscular lines, drawing owners to the driver's seat.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="media/Phantom/Phantom-img3.jpg">
+                    <div>
+                        <h2>EXTERIOR DESIGN</h2>
+                        <p>
+                            Enhanced Exterior Black Detailing, such as dark windscreen, taillight, and exhaust
+                            surrounds, serve to embolden the motor car's athletic stature.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="next">
+            <button onclick="next(this)"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <!----------------------------------------------------->
+
+    <div class="quote">
+        <h2>THE MAGNIFICENCE WITHIN</h2>
+        <p>The interior of Phantom Series II is a sublime extension of its exterior. Attention to detail is evident.
+            Craftsmanship is beyond comparison.</p>
+    </div>
+
+    <div class="container">
+        <div class="previous">
+            <button onclick="prev(this)"><i class="fa-solid fa-chevron-left"></i></button>
+        </div>
+
+        <div class="image-slider">
+            <div id="slider">
+                <div class="item">
+                    <img src="media/Phantom/Seat1.jpg">
+                    <div>
+                        <h2>EXPLORE THE NIGHT SKY</h2>
+                        <p>
+                            The transfixing Shooting Star Headliner is made from hundreds of fibre-optic lights
+                            delicately fitted into the leather roof lining. Owners can personalise their celestial
+                            canopy with unique colours and custom constellations.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="media/Phantom/Seat2.jpg">
+                    <div>
+                        <h2>WORLD-CLASS MATERIALS</h2>
+                        <p>
+                            Scivaro Grey and Peony Pink leather cushions you in pure comfort. Through an intensive
+                            selection and refinement process, only the world's finest leather is sewn into this icon
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="media/Phantom/Seat3.jpg">
+                    <div>
+                        <h2>UNDER YOUR CONTROL</h2>
+                        <p>
+                            The optional Thick Steering Wheel is the ultimate point of connection between driver and
+                            motor car. From this unique position, owners take charge of the road cosseted in refined
+                            luxury.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="next">
+            <button onclick="next(this)"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="footer">
+        <img src="media/Namelogo.png">
+    </div>
+
+</body>
+</html>

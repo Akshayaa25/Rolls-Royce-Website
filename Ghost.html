@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ghost</title>
+    <link rel="icon" href="media/Rolls-Royce_Motor_Cars_logo.png">
+    <link rel="stylesheet" href="Style/style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/bac8c79424.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="sidebar">
+        <div id="close" onclick="closeMenu()">
+            <a href="#"><i class="fa-solid fa-xmark"></i></a>
+        </div>
+        <div id="items-list">
+            <div id="items"><a href="index.html">HOME</a></div>
+            <div id="items" onmouseover="openSubList()" onmouseout="hideSubList()">
+                <div id="view"><a href="#">MODELS</a> <i class="fa-solid fa-angle-down"></i></div>
+                <div id="sub-list">
+                    <div class="list"><a href="Phantom.html">PHANTOM</a></div>
+                    <div class="list"><a href="Ghost.html">GHOST</a></div>
+                    <div class="list"><a href="Spectre.html">SPECTRE</a></div>
+                </div>
+            </div>
+            <div id="items"><a href="#">ABOUT</a></div>
+            <div id="items"><a href="#">MAKE AN ENQUIRY</a></div>
+            <div id="items"><a href="#">CONTACT US</a></div>
+        </div>
+    </div>
+
+    <div class="header">
+        <div onclick="openMenu()" id="menu"><a href="#"><i class="fa-solid fa-bars menu"></i>MENU</a></div>
+        <div class="logo"><a href="index.html"><img src="media/Rolls-Royce_Motor_Cars_logo white.png" id="logo"></a></div>
+        <div class="dealer"><a href="#"><i class="fa-solid fa-magnifying-glass search"></i>FIND A DEALER</a></div>
+    </div>
+
+    <div class="car">
+        <img src="media/Ghost/Ghost.jpg">
+        <a href="Ghost.html">GHOST</a>
+    </div>
+
+    <div class="quote">
+        <p>DESIGN</p>
+        <h2>BUILT UPON THE ARCHITECTURE OF LUXURY</h2>
+    </div>
+
+    <div class="container">
+        <div class="previous">
+            <button onclick="prev(this)"><i class="fa-solid fa-chevron-left"></i></button>
+        </div>
+
+        <div class="image-slider">
+            <div id="slider">
+                <div class="item">
+                    <img src="media/Ghost/Design1.jpg">
+                    <div>
+                        <h2>ILLUMINATED FROM WITHIN</h2>
+                        <p>
+                            In the dark of the night, the Illuminated Grille emits a divine glow, bestowing the car with
+                            a distinctive, 24-hour identity.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="media/Ghost/Design2.jpg">
+                    <div>
+                        <h2>RADIANT BENEATH THE STARS</h2>
+                        <p>
+                            The Starlight Headliner is emphasised with an ephemeral show of shooting stars. The
+                            celestial scene is a rarefied vision of pure beauty.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="media/Ghost/Design3.jpg">
+                    <div>
+                        <h2>CAPTIVATING IN ESSENCE</h2>
+                        <p>
+                            The high-gloss, Illuminated Fascia is a masterful display of mesmerising craftsmanship. When
+                            Ghost is in motion, the wordmark is enlivened by the brilliance of 850 three-dimensional
+                            stars. When Ghost is in repose, the star field dims, and the fascia seemingly disappears
+                            into the abyss of the night.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="next">
+            <button onclick="next(this)"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <!------------------------------------------------->
+
+    <div class="quote">
+        <p>PERFORMANCE</p>
+        <h2>SELF-ASSURED POWER</h2>
+    </div>
+
+    <div class="container">
+        <div class="previous">
+            <button onclick="prev(this)"><i class="fa-solid fa-chevron-left"></i></button>
+        </div>
+
+        <div class="image-slider">
+            <div id="slider">
+                <div class="item">
+                    <img src="media/Ghost/Performance1.jpg">
+                    <div>
+                        <h2>SUPERIOR DRIVING CAPABILITY</h2>
+                        <p>
+                            All-wheel drive establishes newfound versatility and on-road dynamism without compromising
+                            the Magic Carpet Ride.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="media/Ghost/Performance2.jpg">
+                    <div>
+                        <h2>PURE SOUND, PURE SILENCE</h2>
+                        <p>
+                            The Bespoke Audio system is tailored to Ghost's specific dimensions, creating studio-quality
+                            sound within the cabin. And because the aluminium Architecture of Luxury has high acoustic
+                            impedance, external noise is all but eliminated.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="media/Ghost/Performance3.jpg">
+                    <div>
+                        <h2>THE WORLD'S MOST REFINED ENGINE</h2>
+                        <p>
+                            Powered by the next generation 6.75-litre twin-turbocharged V12, delivering impressive
+                            torque at low RPM.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="next">
+            <button onclick="next(this)"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <!----------------------------------------------------->
+
+    <div class="quote">
+        <p>TECHNOLOGY</p>
+        <h2>CONSIDERED INNOVATIONS</h2>
+    </div>
+
+    <div class="container">
+        <div class="previous">
+            <button onclick="prev(this)"><i class="fa-solid fa-chevron-left"></i></button>
+        </div>
+        <div class="image-slider">
+            <div id="slider">
+                <div class="item">
+                    <img src="media/Ghost/Tech1.jpg">
+                    <div>
+                        <h2>PERCEPTIVE TOUCHSCREENS</h2>
+                        <p>
+                            Responsive touchscreens on the front-central control display offer intuitive, expedient, and
+                            refined control.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="media/Ghost/Tech2.jpg">
+                    <div>
+                        <h2>SEAMLESS CONNECTIVITY</h2>
+                        <p>
+                            Remain connected for professional or recreational purposes at all times with wireless
+                            charging, four USB-C ports, and Apple Car Play.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="media/Ghost/Tech3.jpg">
+                    <div>
+                        <h2>CRYSTAL CLEAR VISIBILITY</h2>
+                        <p>
+                            Laser headlights instil the driver with the utmost confidence, giving a visual range of up
+                            to 600m, twice the range of LED options, and ten times the intensity of conventional light
+                            sources.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="next">
+            <button onclick="next(this)"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="footer">
+        <img src="media/Namelogo.png">
+    </div>
+
+</body>
+</html>

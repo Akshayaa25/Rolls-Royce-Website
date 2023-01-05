@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Rolls Royce</title>
+    <link rel="icon" href="media/Rolls-Royce_Motor_Cars_logo.png">
+    <link rel="stylesheet" href="Style/style1.css">
+    <link rel="stylesheet" href="Style/style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/bac8c79424.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <div id="sidebar">
+        <div id="close" onclick="closeMenu()">
+            <a href="#"><i class="fa-solid fa-xmark"></i></a>
+        </div>
+        <div id="items-list">
+            <div id="items" onmouseover="openSubList()" onmouseout="hideSubList()">
+                <div id="view"><a href="#">MODELS</a> <i class="fa-solid fa-angle-down"></i></div>
+                <div id="sub-list">
+                    <div class="list"><a href="Phantom.html">PHANTOM</a></div>
+                    <div class="list"><a href="Ghost.html">GHOST</a></div>
+                    <div class="list"><a href="Spectre.html">SPECTRE</a></div>
+                </div>
+            </div>
+            <div id="items"><a href="#">ABOUT</a></div>
+            <div id="items"><a href="#">MAKE AN ENQUIRY</a></div>
+            <div id="items"><a href="#">CONTACT US</a></div>
+        </div>
+    </div>
+
+    <div class="header">
+        <div onclick="openMenu()" id="menu"><a href="#"><i class="fa-solid fa-bars menu"></i>MENU</a></div>
+        <div class="logo"><a href="index.html"><img src="media/Rolls-Royce_Motor_Cars_logo white.png" id="logo"></a></div>
+        <div class="dealer"><a href="#"><i class="fa-solid fa-magnifying-glass search"></i>FIND A DEALER</a></div>
+    </div>
+
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+
+            <div class="slide first">
+                <img src="media/Phantom/Phantom.jpg" alt="Car-model-1">
+                <a href="Phantom.html">PHANTOM</a>
+            </div>
+            <div class="slide">
+                <img src="media/Ghost/Ghost.jpg" alt="Car-model-2">
+                <a href="Ghost.html">GHOST</a>
+            </div>
+            <div class="slide">
+                <img src="media/Spectre/Spectre.jpg" alt="Car-model-3">
+                <a href="Spectre.html">SPECTRE</a>
+            </div>
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+        </div>
+
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+        </div>
+    </div>
+
+</body>
+</html>
